@@ -49,12 +49,12 @@ class _SongScreenState extends State<SongScreen> {
       body: Container(
         height: MediaQuery.of(context).size.height,
         width: MediaQuery.of(context).size.width,
-//        decoration: BoxDecoration(
-//          gradient: LinearGradient(
-//            begin: Alignment.topCenter,
-//            colors: [Color(0XFF24242c), Color(0XFF2e2e2e)],
-//          ),
-//        ),
+       decoration: BoxDecoration(
+         gradient: LinearGradient(
+           begin: Alignment.topCenter,
+           colors: [Color(0XFF24242c), Color(0XFF2e2e2e)],
+         ),
+       ),
         child: Column(
           children: <Widget>[
             Padding(
